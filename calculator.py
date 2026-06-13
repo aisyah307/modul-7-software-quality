@@ -8,5 +8,14 @@ def divide(a: float, b: float) -> float:
         raise ValueError("Divider cannot be zero")
     return a / b
 
+def subtract(a: float, b: float) -> float:
+    return a - b
+
 def multiply(a: float, b: float) -> float:
     return a * b
+
+def power(a: float, b: float) -> float:
+    return a ** b
+
+def modulus(a: float, b: float) -> float:
+    return a % b
