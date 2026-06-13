@@ -17,8 +17,6 @@ def multiply(a: float, b: float) -> float:
 def power(a: float, b: float) -> float:
     return a ** b
 
-def modulus(a: float, b: float) -> float:
-    return a % b
 
 def check_number_status(x: float) -> str:
     if x > 100:
