@@ -17,6 +17,8 @@ def multiply(a: float, b: float) -> float:
 def power(a: float, b: float) -> float:
     return a ** b
 
+def dummy_function():
+    return "Fungsi ini sengaja tidak dites"
 
 def check_number_status(x: float) -> str:
     if x > 100:
