@@ -9,6 +9,12 @@ on:
 jobs:
   build-test:
     runs-on: ubuntu-latest
+  
+  strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+      # Opsional: Jika salah satu versi gagal, versi lain tetap dilanjutkan sampai selesai
+      fail-fast: false
 
     steps:
       - name: Checkout
